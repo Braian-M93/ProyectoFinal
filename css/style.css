@@ -16,12 +16,17 @@ footer a img{
   transform: skew(30deg);
   cursor: pointer;
 }
+h1{
+  animation-name: ;
+  animation-duration: 5seg;  
+  background-color: orange;
+}
 h2{
   animation-name: ;
   animation-duration: 5seg;  
   background-color: orange;
 }
-legend h3 {
+legend h2 {
   text-align: center;
 }
 article p {
@@ -40,6 +45,7 @@ article{
 div{
   display: flex;
   align-content: center;
+  padding: 10px;
 }
 section fieldset img{
   width: 25%;
@@ -48,7 +54,7 @@ section fieldset img{
 
 }
 section fieldset{
-  border: solid;
+
   color: black;
     font-weight: 300; 
   line-height: 5rem;
@@ -57,13 +63,23 @@ section fieldset{
 div ul li a{
 color: black;
 font-weight: 300%;
-font-size: 30px;
-line-height: 4rem;
+font-size: 40px;
+line-height: 5rem;
 margin: 10px;
+
 }
 .carousel-inner{
   width: 95%;
   align-content: center;
   align-items: center;
-  justify-content: ;
+}
+main{
+  border: solid;
+  padding: 10px;
+  border-radius: 10%;
+
+}
+ul{
+  border: double;
+  
 }
