@@ -12,6 +12,7 @@ footer a img{
   width: 50px;
 }
 
+
 .skew:hover{
   transform: skew(30deg);
   cursor: pointer;

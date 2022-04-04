@@ -20,20 +20,7 @@ ul{
   animation-duration: 5s;
   animation-name:bounceInLeft;
 }
-main section fieldset img{
-  animation-duration: 5s;
-  animation-name: animate__zoomInDown;
-}
-@keyframes animate__zoomInDown{
-  from{
-    margin-left: 100%;
-    width: 100%;
-  }
-  to{
-    margin-left: 0%;
-    width: 100%;
-  }
-}
+
 @keyframes bounceInLeft{
    from {
     margin-left: 100%;
