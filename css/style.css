@@ -1,86 +1,70 @@
-*{
-	font-size: 100%;
-	font-family: times new roman, serif;
-}
-body{
-	background-attachment: scroll;
-	margin: 0;
-  background-color: beige;
-}
+* {
+  font-size: 100%;
+  font-family: times new roman, serif; }
+  * body {
+    background-attachment: scroll;
+    background-color: beige; }
 
-footer a img{
-  width: 50px;
-}
-
-
-.skew:hover{
-  transform: skew(30deg);
-  cursor: pointer;
-}
-h1{
-  animation-name: ;
-  animation-duration: 5seg;  
-  background-color: orange;
-}
-h2{
-  animation-name: ;
-  animation-duration: 5seg;  
-  background-color: orange;
-}
-legend h2 {
+.titulo {
+  font-size: 2em;
+  line-height: 1em;
+  color: black;
+  background: orange;
+  padding: 3px;
   text-align: center;
-}
-article p {
-  text-align: center;
-  line-height: 2;
-font-weight: 100;
-font-size: 1rem;
-}
-article h2{
-  text-align: center;
-}
-article{
+  justify-content: center;
   align-content: center;
   justify-items: center;
-}
-div{
   display: flex;
-  align-content: center;
-  padding: 10px;
-}
-section fieldset img{
-  width: 25%;
-  margin: 25px;
-  border-radius: 10%;
+  padding: 10px; }
+  .titulo:hover {
+    transform: skew(30deg);
+    cursor: pointer; }
 
-}
-section fieldset{
-
+section fieldset {
   color: black;
-    font-weight: 300; 
+  font-weight: 300;
   line-height: 5rem;
-  margin: 30px;
-}
-div ul li a{
-color: black;
-font-weight: 300%;
-font-size: 40px;
-line-height: 5rem;
-margin: 10px;
+  margin: 30px; }
 
-}
-.carousel-inner{
-  width: 95%;
-  align-content: center;
-  align-items: center;
-}
-main{
+div ul li a {
+  color: black;
+  font-weight: 300%;
+  font-size: 40px;
+  line-height: 5rem;
+  margin: 10px; }
+
+main {
   border: solid;
   padding: 10px;
-  border-radius: 10%;
+  border-radius: 10%; }
 
-}
-ul{
-  border: double;
-  
-}
+ul {
+  border: double; }
+
+article {
+  align-content: center;
+  justify-items: center; }
+  article p {
+    text-align: center;
+    line-height: 2;
+    font-weight: 100;
+    font-size: 1rem; }
+
+div {
+  display: flex;
+  align-content: center;
+  padding: 10px; }
+
+footer a img {
+  width: 50px; }
+
+section fieldset img {
+  width: 25%;
+  margin: 25px;
+  border-radius: 10%; }
+
+.carousel-inner {
+  width: 95%;
+  align-content: center;
+  align-items: center; }
