@@ -4,3 +4,25 @@ $color-letter: black;
 
 
 $imagenesPorFila:4;
+
+section div figure img{
+	width: 150px;
+	height: auto !important;
+
+}
+
+.flex{
+	display: flex;
+	padding: 15px;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+
+}
+figcaption{
+	    line-height: 2;
+		font-weight: 100;
+		font-size: 1.2rem;
+		color: black;
+		text-emphasis: center;
+}

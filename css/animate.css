@@ -1,5 +1,5 @@
 p{
-  animation-duration: 10s ;
+  animation-duration: 6s ;
   animation-name: slidein ;
   
 }
@@ -17,6 +17,10 @@ p{
   }
 }
 ul{
+  animation-duration: 3s;
+  animation-name:bounceInLeft;
+}
+section fieldset{
   animation-duration: 5s;
   animation-name:bounceInLeft;
 }

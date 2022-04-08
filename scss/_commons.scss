@@ -3,29 +3,26 @@
 	font-family: times new roman, serif;
 	body{
 		background-attachment: scroll;
-		background-color: beige;}
+		background-image: url("../imagen/bg/bggral.png");
+		background-size: cover;
+		padding: 10px}
 }
 
-@mixin titulo($font-size, $line-height, $color, $background){
+@mixin titulo($font-size, $line-height, $color){
 	font-size: $font-size;
 	line-height: $line-height;
 	color: $color;
-	background: $background;
-	padding: 3px;}
+	padding: 3px;
+}
 
 .titulo{
-	@include titulo( 2em, 1em, black, orange);
+	@include titulo( 2em, 1em, black);
 	text-align: center;
 	justify-content:center;
 	align-content:center;
 	justify-items:center;
 	display: flex;
 	padding: 10px;
-
-		&:hover{
-			transform: skew(30deg);
-			cursor: pointer;
-				}
 
 }
 section fieldset{
@@ -40,8 +37,7 @@ color: black;
 font-weight: 300%;
 font-size: 40px;
 line-height: 5rem;
-margin: 10px;
-
+margin: 20px;
 }
 main{
   border: solid;
@@ -51,7 +47,10 @@ main{
 }
 ul{
   border: double;
-  
+  top: 5%
+}
+nav div a img{
+	width: 45%;
 }
 
 article{
@@ -61,7 +60,8 @@ article{
   	    text-align: center;
 	    line-height: 2;
 		font-weight: 100;
-		font-size: 1rem;
+		font-size: 1.2rem;
+		color: black;
   }
 }
 div{
