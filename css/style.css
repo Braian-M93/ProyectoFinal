@@ -105,6 +105,9 @@ main section div div {
   justify-content: center;
   align-items: center; }
 
+.contenedor .form-title {
+  text-decoration: underline; }
+
 .contenedor .form {
   width: 80%;
   max-width: 650px;
