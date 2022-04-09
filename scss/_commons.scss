@@ -24,6 +24,7 @@
 	display: flex;
 	padding: 10px;
 	margin-bottom: 15px;
+	text-decoration: underline;
 
 }
 div ul li a{
@@ -41,6 +42,7 @@ main{
 }
 footer a img{
   width: 50px;
+  
 }
 ul{
   border: double;
@@ -75,4 +77,11 @@ main section div div{
   padding: 10px;
   flex-direction: column;
 
+}
+.div-footer{
+	display: flex;
+	font-size: 1.2rem;
+	color: black;
+	font-weight: 100%;
+	flex-direction: row;
 }

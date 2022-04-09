@@ -44,7 +44,8 @@ figcaption {
   justify-items: center;
   display: flex;
   padding: 10px;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  text-decoration: underline; }
 
 div ul li a {
   color: black;
@@ -88,6 +89,13 @@ main section div div {
   align-items: center;
   padding: 10px;
   flex-direction: column; }
+
+.div-footer {
+  display: flex;
+  font-size: 1.2rem;
+  color: black;
+  font-weight: 100%;
+  flex-direction: row; }
 
 .contenedor .form .form-header .form-title {
   font-weight: normal;
@@ -165,7 +173,8 @@ button {
   padding-left: 0.9em;
   display: flex;
   align-items: center;
-  border: none;
+  border-width: 2px;
+  border-style: inset;
   border-radius: 16px;
   overflow: hidden;
   transition: all 0.2s; }
