@@ -23,14 +23,8 @@
 	justify-items:center;
 	display: flex;
 	padding: 10px;
+	margin-bottom: 15px;
 
-}
-section fieldset{
-
-  color: black;
-    font-weight: 300; 
-  line-height: 5rem;
-  margin: 30px;
 }
 div ul li a{
 color: black;
@@ -44,6 +38,9 @@ main{
   padding: 10px;
   border-radius: 10%;
 
+}
+footer a img{
+  width: 50px;
 }
 ul{
   border: double;
@@ -60,12 +57,22 @@ article{
   	    text-align: center;
 	    line-height: 2;
 		font-weight: 100;
-		font-size: 1.2rem;
+		font-size: 1.4rem;
 		color: black;
   }
 }
-div{
+
+  div{
   display: flex;
   align-content: center;
   padding: 10px;
+}
+
+
+main section div div{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  flex-direction: column;
+
 }

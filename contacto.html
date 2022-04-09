@@ -60,32 +60,61 @@
     </div>
   </nav>
   <main>
-        <section>
-          <form action="envio.php" method="post">
-          <fieldset class="text-center">
-            <legend><h2 class="titulo">Contacto</h2></legend>
-              
-            <p>Para cualquier consulta pueden comunicarse con nosotros</p>
+    <section>
+      <div>
+      <div class="contenedor">
+        <form action="envio.php" method="post" class="form">
+          <fieldset>
+            <div class="form-header">
+            <legend class="form-title">datos personales</legend>
+            </div>
+            <div>
+            <label for="nombre">Nombre y apellido</label>
+            <input type="text" placeholder="nombre" name="nombre" id="nombre">
+            </div>
+            <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            </div>
+            <div>
+            <label for="mensaje">Deje su mensaje por favor</label>
+            <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="deja tu mensaje"></textarea>
+            </div>
+            <div>
+            <button class="super-boton">
+  <div class="svg-wrapper-1">
+    <div class="svg-wrapper">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+        <path fill="none" d="M0 0h24v24H0z"></path>
+        <path fill="currentColor" d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
+      </svg>
+    </div>
+  </div>
+  <span>Send</span>
+</button>
+
+
+
+<button type="reset">
+  <div class="svg-wrapper-1">
+    <div class="svg-wrapper">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+        <path fill="none" d="M0 0h24v24H0z"></path>
+        <path fill="currentColor" d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
+      </svg>
+    </div>
+  </div>
+  <span>Cancel</span>
+</button>
           
-            <label for="Nombre">Nombre y Apellido</label> <br>
-            <input type="text" placeholder="Nombre y Apellido" name="Nombre y Apellido" id="Nombre y Apellido">
-            <br>
-            <label for="Email">Email</label> <br>
-            <input type="text" placeholder="Email" name="Email" id="Email">
-            <br>
-            <label for="Telefono">Telefono</label> <br>
-            <input type="text" placeholder="Telefono" name="Telefono" id="Telefono">
-            <br>
-            <label for="Mensaje">Por favor, deje su Mensaje</label> <br>
-            <textarea name="Comentario" id="Comentario" cols="30" rows="10"></textarea>
-            <br>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Cancelar">
-          
+
           </fieldset>
-        </form>
+        </form> 
+      </div>
+      </div>
     </section>
   </main>
+
 <footer class="text-center py-3">      
     <h5>Seguinos en instagram, y esten atento a posteos y sorteos todas las semanas</h5>
     <a href="https://www.instagram.com/?hl=es-la" target="_blank"><img src="imagen/logo-ig.png" alt="siguenos en instagram"></a class="w-50">
