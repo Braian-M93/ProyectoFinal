@@ -1,5 +1,5 @@
-section div figure img {
-  width: 150px;
+main section div div div figure img {
+  width: 120px;
   height: auto !important; }
 
 .flex {
@@ -11,7 +11,7 @@ section div figure img {
 
 figcaption {
   line-height: 2;
-  font-weight: 100;
+  font-weight: 80;
   font-size: 1.2rem;
   color: black;
   text-emphasis: center; }
@@ -57,13 +57,14 @@ div ul li a {
 main {
   border: solid;
   padding: 10px;
-  border-radius: 10%; }
+  border-radius: 10px; }
 
 footer a img {
   width: 50px; }
 
 ul {
-  border: double;
+  border-radius: 15px;
+  border-style: double;
   top: 5%; }
 
 nav div a img {
@@ -92,7 +93,7 @@ main section div div {
 
 .div-footer {
   display: flex;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: black;
   font-weight: 100%;
   flex-direction: row;
@@ -137,11 +138,15 @@ main section div div {
   color: white;
   font-family: roboto; }
 
+main section div div form fieldset div {
+  border-style: none;
+  border-radius: 15px; }
+
 * {
   box-sizing: border-box; }
 
 img {
-  width: 100%;
+  width: 75%;
   border-radius: 20px; }
 
 .row {
@@ -163,6 +168,10 @@ img {
 @media (max-width: 600px) {
   .column {
     flex: 100%; } }
+
+main section article div div {
+  border-style: inset;
+  border-radius: 15px; }
 
 .carousel-inner {
   align-content: center;
@@ -233,3 +242,7 @@ button:active {
 @media (max-width: 600px) {
   .column {
     flex: 100%; } }
+
+main section div div {
+  border-style: inset;
+  border-radius: 15px; }

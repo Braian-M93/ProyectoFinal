@@ -5,10 +5,9 @@ $color-letter: black;
 
 $imagenesPorFila:4;
 
-section div figure img{
-	width: 150px;
+main section div div div figure img{
+	width: 120px;
 	height: auto !important;
-
 }
 
 .flex{
@@ -21,7 +20,7 @@ section div figure img{
 }
 figcaption{
 	    line-height: 2;
-		font-weight: 100;
+		font-weight: 80;
 		font-size: 1.2rem;
 		color: black;
 		text-emphasis: center;

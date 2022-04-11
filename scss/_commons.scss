@@ -37,7 +37,7 @@ margin: 20px;
 main{
   border: solid;
   padding: 10px;
-  border-radius: 10%;
+  border-radius: 10px;
 
 }
 footer a img{
@@ -45,7 +45,8 @@ footer a img{
   
 }
 ul{
-  border: double;
+  border-radius: 15px;
+  border-style: double;
   top: 5%
 }
 nav div a img{
@@ -80,7 +81,7 @@ main section div div{
 }
 .div-footer{
 	display: flex;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	color: black;
 	font-weight: 100%;
 	flex-direction: row;
