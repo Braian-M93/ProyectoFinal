@@ -87,10 +87,10 @@ main section div div {
 
 .div-footer {
   display: flex;
-  font-size: 1rem;
+  font-size: 0.8em;
   color: black;
   flex-direction: row;
-  justify-content: space-around; }
+  justify-content: space-evenly; }
 
 .contenedor .form .form-header .form-title {
   font-weight: normal;
