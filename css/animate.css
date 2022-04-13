@@ -1,10 +1,10 @@
 p{
-  animation-duration: 6s ;
-  animation-name: slidein ;
+  animation-duration: 1s ;
+  animation-name: animate__fadeInRight ;
   
 }
 
-@keyframes slidein{
+@keyframes animate__fadeInRight{
  
  from {
     margin-left: 100%;
@@ -21,7 +21,7 @@ ul{
   animation-name:bounceInLeft;
 }
 section fieldset{
-  animation-duration: 5s;
+  animation-duration: 2s;
   animation-name:bounceInLeft;
 }
 

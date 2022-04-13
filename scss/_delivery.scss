@@ -1,0 +1,41 @@
+.row{
+  display: flex;
+  padding: 20px;
+  justify-content: space-evenly;
+ }
+ .column{
+  flex: 25%;
+  margin-top: 10px;
+ }
+@media (max-width: 800px){
+  .column{
+    flex:50%;
+  }
+ }
+
+ @media (max-width: 600px){
+  .column{
+    flex:100%;
+  }
+ }
+ div div img{
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+ }
+ p{
+  text-align: center;
+      line-height: 2;
+    font-weight: 100;
+    font-size: 1.4rem;
+    color: black;
+ }
+ 
+nav{
+  a img{
+    width: 100px;
+    p{
+      text-align: left;
+    }
+  }
+}

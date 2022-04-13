@@ -1,9 +1,15 @@
 *{
   box-sizing: border-box;
 }
- img{
-  width: 75%;
-  border-radius: 20px;
+ article{
+  div{
+    div{
+       img{
+        width: 75%;
+       border-radius: 20px;
+       }
+    }
+  }
  }
  .row{
   display: flex;

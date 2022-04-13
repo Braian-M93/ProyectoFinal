@@ -3,7 +3,7 @@
 	font-family: times new roman, serif;
 	body{
 		background-attachment: scroll;
-		background-image: url("../imagen/bg/bggral.png");
+		background-image: url("../imagen/bg/bg-gral.jpg");
 		background-size: cover;
 		padding: 10px}
 }
@@ -65,13 +65,7 @@ article{
   }
 }
 
-  div{
-  display: flex;
-  align-content: center;
-  padding: 10px;
-}
-
-
+ 
 main section div div{
   display: flex;
   align-items: center;
@@ -83,7 +77,6 @@ main section div div{
 	display: flex;
 	font-size: 1rem;
 	color: black;
-	font-weight: 100%;
 	flex-direction: row;
 	justify-content: space-around;
 }

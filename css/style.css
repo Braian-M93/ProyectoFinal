@@ -29,7 +29,7 @@ figcaption {
   font-family: times new roman, serif; }
   * body {
     background-attachment: scroll;
-    background-image: url("../imagen/bg/bggral.png");
+    background-image: url("../imagen/bg/bg-gral.jpg");
     background-size: cover;
     padding: 10px; }
 
@@ -80,11 +80,6 @@ article {
     font-size: 1.4rem;
     color: black; }
 
-div {
-  display: flex;
-  align-content: center;
-  padding: 10px; }
-
 main section div div {
   display: flex;
   align-items: center;
@@ -95,7 +90,6 @@ main section div div {
   display: flex;
   font-size: 1rem;
   color: black;
-  font-weight: 100%;
   flex-direction: row;
   justify-content: space-around; }
 
@@ -142,10 +136,26 @@ main section div div form fieldset div {
   border-style: none;
   border-radius: 15px; }
 
+label {
+  color: black; }
+
+.mapa {
+  align-items: center;
+  justify-content: center; }
+
+.row {
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap; }
+
+.column {
+  flex: 25%;
+  margin-top: 10px; }
+
 * {
   box-sizing: border-box; }
 
-img {
+article div div img {
   width: 75%;
   border-radius: 20px; }
 
@@ -176,6 +186,18 @@ main section article div div {
 .carousel-inner {
   align-content: center;
   align-items: center; }
+
+.carousel-inner img {
+  width: 200%;
+  max-height: 600px; }
+
+div section div img {
+  width: 250px; }
+
+div {
+  display: flex;
+  align-content: center;
+  padding: 25px; }
 
 button {
   font-family: inherit;
@@ -246,3 +268,37 @@ button:active {
 main section div div {
   border-style: inset;
   border-radius: 15px; }
+
+.row {
+  display: flex;
+  padding: 20px;
+  justify-content: space-evenly; }
+
+.column {
+  flex: 25%;
+  margin-top: 10px; }
+
+@media (max-width: 800px) {
+  .column {
+    flex: 50%; } }
+
+@media (max-width: 600px) {
+  .column {
+    flex: 100%; } }
+
+div div img {
+  width: 150px;
+  height: auto;
+  border-radius: 10px; }
+
+p {
+  text-align: center;
+  line-height: 2;
+  font-weight: 100;
+  font-size: 1.4rem;
+  color: black; }
+
+nav a img {
+  width: 100px; }
+  nav a img p {
+    text-align: left; }
