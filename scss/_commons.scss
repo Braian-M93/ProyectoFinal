@@ -26,30 +26,50 @@
 	text-decoration: underline;
 
 }
-div ul li a{
-color: black;
-font-weight: 300%;
-font-size: 40px;
-line-height: 5rem;
-margin: 20px;
+
+div{
+	ul{
+		li{
+			a{
+				color: black;
+				font-weight: 300%;
+				font-size: 40px;
+				line-height: 5rem;
+				margin: 20px;
+			}
+		}
+	}
 }
+
 main{
   border: solid;
   padding: 10px;
   border-radius: 10px;
 
 }
-footer a img{
-  width: 50px;
-  
+
+footer{
+	a{
+		img{
+			width: 50px;
+		}
+	}
 }
+
 ul{
   border-radius: 15px;
   border-style: double;
   top: 5%;
 }
-nav div a img{
-	width: 35%;
+
+nav{
+	div{
+		a{
+			img{
+				width: 35%;
+			}
+		}
+	}
 }
 
 article{
@@ -63,15 +83,20 @@ article{
 		color: black;
   }
 }
-
  
-main section div div{
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  flex-direction: column;
-
+main{
+	section{
+		div{
+			div{
+				display: flex;
+  			align-items: center;
+  			padding: 10px;
+ 			  flex-direction: column;
+			}
+		}
+	}
 }
+
 .div-footer{
 	display: flex;
 	font-size: 1rem;

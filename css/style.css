@@ -289,13 +289,12 @@ div div img {
   width: 150px;
   height: auto;
   border-radius: 10px; }
-
-p {
-  text-align: center;
-  line-height: 2;
-  font-weight: 100;
-  font-size: 1.4rem;
-  color: black; }
+  div div img p {
+    text-align: center;
+    line-height: 2;
+    font-weight: 100;
+    font-size: 1.4rem;
+    color: black; }
 
 nav a img {
   width: 100px; }

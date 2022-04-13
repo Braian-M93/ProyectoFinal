@@ -40,10 +40,24 @@
   color: white;
   font-family: roboto;
 }
-main section div div form fieldset div{
-  border-style: none;
-  border-radius: 15px;
+
+main{
+  section{
+    div{
+      div{
+        form{
+          fieldset{
+            div{
+              border-style: none;
+              border-radius: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
+
 label{
   color: black;
 }
@@ -52,11 +66,13 @@ label{
   align-items:center;
   justify-content: center;
 }
+
  .row{
   display: flex;
   padding: 10px;
 flex-wrap: wrap;
  }
+ 
  .column{
   flex: 25%;
   margin-top: 10px;

@@ -36,6 +36,17 @@ flex-wrap: wrap;
   }
  }
  main section article div div{
-  border-style: inset;
-  border-radius: 15px;
+  
+ }
+ main{
+  section{
+    article{
+      div{
+        div{
+          border-style: inset;
+          border-radius: 15px;
+        }
+      }
+    }
+  }
  }
