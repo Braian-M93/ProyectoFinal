@@ -25,7 +25,6 @@ figcaption {
   color: black; }
 
 * {
-  font-size: 100%;
   font-family: times new roman, serif; }
   * body {
     background-attachment: scroll;
@@ -68,7 +67,7 @@ ul {
   top: 5%; }
 
 nav div a img {
-  width: 45%; }
+  width: 35%; }
 
 article {
   align-content: center;
