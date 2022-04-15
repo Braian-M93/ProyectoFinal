@@ -25,14 +25,22 @@ flex-wrap: wrap;
     flex:100%;
   }
  }
- 
  main{
   section{
     div{
       div{
-         border-style: inset;
-  border-radius: 15px;
+        border-style: inset;
+         border-radius: 15px;
+        figure{
+          img{ 
+            &:hover{
+                  transform: scale(2);
+          }
+        }
       }
     }
   }
- } 
+  }
+}
+ 
+ 
